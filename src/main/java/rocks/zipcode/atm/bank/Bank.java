@@ -20,6 +20,13 @@ public class Bank {
         accounts.put(2000, new PremiumAccount(new AccountData(
                 2000, "Example 2", "example2@gmail.com", 200
         )));
+
+        accounts.put(3000, new PremiumAccount(new AccountData(
+                3000, "Chalie","chuckexample@gmail.com", 275000
+        )));
+        accounts.put(4000, new BasicAccount( new AccountData(
+                    4000, "Jesus", "almighty1@gmail.com", 600
+        )));
     }
 
     public ActionResult<AccountData> getAccountById(int id) {

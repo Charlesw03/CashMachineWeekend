@@ -15,6 +15,7 @@ public class CashMachine {
     private AccountData accountData = null;
 
     public CashMachine(Bank bank) {
+
         this.bank = bank;
     }
 
